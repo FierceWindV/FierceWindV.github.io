@@ -15,7 +15,7 @@
 <meta property="og:site_name" content="FierceWindV的博客">
 <meta property="og:description" content="Welcome！">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-09-19T16:42:29.093Z">
+<meta property="og:updated_time" content="2019-09-20T02:26:33.440Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Windows10+Hexo+GitHub搭建个人博客">
 <meta name="twitter:description" content="Welcome！">
@@ -197,7 +197,7 @@
 <li>用户名说明：是Settings-&gt;Account中的username(即创建仓库页面时，仓库名输入框前Owner的值)，不是Profile中的Name，否则访问路径不是https://用户名.github.io/</li>
 <li>验证GitHub地址：仓库主页-&gt;仓库Settings标签页-&gt;GitHub Pages下是否提示生成了网址https://用户名.github.io/<h3 id="2-在博客目录安装hexo部署插件"><a href="#2-在博客目录安装hexo部署插件" class="headerlink" title="2.在博客目录安装hexo部署插件"></a>2.在博客目录安装hexo部署插件</h3></li>
 <li>cnpm install –save hexo-deployer-git<h3 id="3-配置博客根目录下的-config-yml文件"><a href="#3-配置博客根目录下的-config-yml文件" class="headerlink" title="3.配置博客根目录下的_config.yml文件"></a>3.配置博客根目录下的_config.yml文件</h3></li>
-<li>部署配置<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># SSH和HTTPS地址均可</span><br><span class="line"># 如果使用SSH的方式，需要在本地生成密钥并配置到GitHub(Settings-&gt;SSH Keys)</span><br><span class="line"># 生成命令：ssh-keygen -t rsa -C &quot;your_email@example.com&quot;</span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: git@github.com:FierceWindV/FierceWindV.github.io.git</span><br><span class="line">  #repo: https://github.com/FierceWindV/FierceWindV.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+<li>部署配置<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># SSH和HTTPS地址均可</span><br><span class="line"># 如果使用SSH的方式，需要在本地生成密钥并配置到GitHub(Settings-&gt;SSH Keys)</span><br><span class="line"># 生成命令：ssh-keygen -t rsa -C &quot;GitHub邮箱&quot;</span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: git@github.com:FierceWindV/FierceWindV.github.io.git</span><br><span class="line">  #repo: https://github.com/FierceWindV/FierceWindV.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
 
 </li>
 </ul>
